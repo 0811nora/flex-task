@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    background: #FBFBFB;
+}
+
+.img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.wrap{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.header{
+    margin: 40px 0;
+    width: 416px;
+    background-color: #FBFBFB;
+    border: 1px solid #4B4B4B;
+    border-radius: 40px;
+    padding: 5px 10px;
+
+}
+
+.header input{
+    border: none;
+    padding: 10px  20px 10px 5px;
+    background-color: #FBFBFB;
+    vertical-align:middle;
+    width: 350px;
+    font-size: 16px;
+
+
+}
+
+.header button{
+    border: none;
+    background-color: #FBFBFB;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header i{
+    font-size: 22px;
+    vertical-align:middle;
+    color: #4B4B4B;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.card{
+    width: 416px;
+    margin-bottom: 20px;
+
+}
+
+.card h5{
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.card h2{
+    font-size: 28px;
+    color: #000000;
+    margin: 5px 0;
+    font-weight: 700;
+
+}
+
+.tag{
+    font-size: 24px;
+    color: #0027D5;
+    margin-right: 8px;
+    vertical-align:middle;
+}
+
+.hot-tag{
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #0027D5;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    vertical-align:middle;
+}
+
+.card p{
+    color: #4B4B4B;
+    font-size: 16px;
+    height: 48px;
+    margin: auto 0;
+}
+
+.read-button{
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid  #000000;
+    border-radius: 40px;
+    margin: 10px 0  ;
+    color: #4B4B4B;
+}
+
+.read-button:hover{
+    background-color: #393939;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.pages{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    width: 328px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    margin-bottom: 30px;
+
+}
+
+.pages a{
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 10px 0  ;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4B4B4B;  
+}
+
+.pages a:hover{
+    color: #0027D5;
+
+}
+
+.pages i{
+    font-size: 24px;
+}
+
+
